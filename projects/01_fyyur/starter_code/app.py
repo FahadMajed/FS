@@ -30,7 +30,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 # TODO: connect to a local postgresql database
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:fmh123FMH@localhost:5432/Fyyur'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:mypassword@localhost:5432/Fyyur'
 
 
 
